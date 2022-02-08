@@ -1,1 +1,1 @@
-web: gunicorn TgTwitterStreamer.wsgi --log-file -
+web: gunicorn main:app
