@@ -1,1 +1,1 @@
-worker: python3 -m TgTwitterStreamer
+web: gunicorn TgTwitterStreamer.wsgi --log-file -
